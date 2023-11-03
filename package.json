@@ -1,34 +1,33 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "description": "This is Namaste React by Kamalesh Parmar",
-
+  "description": "This is Namaste React by Akshay Saini",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",    
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/Kamalesh-parmar/namaste-react.git)"
+    "url": "git+https://github.com/namastedev/namaste-react.git"
   },
-  "keywords": [
-    "react",
-    "namaste-react",
-    "kamalesh",
-    "parmar"
-  ],
-  "author": "Kamalesh Parmar",
+  "keywords": [],
+  "author": "Akshay Saini",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namastedev/namaste-react/issues"
+  },
+  "homepage": "https://github.com/namastedev/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.9.3",
+    "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions"
   ]
 }
